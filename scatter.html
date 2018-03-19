@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Strange Correlation</title>
+  </head>
+  <body>
+	<h1> Per Capita Cheese Consumed (in pounds) VS Number of People Who Died by Being Tangled In Their Bedsheets</h1>
+    <svg xmlns="http://www.w3.org/2000svg" width="600" height="500" id="svg">
+      <line x1="100" y1="480" x2="600" y2="480" style="stroke:black; stroke-width:5"/>
+	  <text x="300" y="500" font-size="12px">Deaths</text>
+      <line x1="100" y1="80" x2="100" y2="480" style="stroke:black; stroke-width:5"/>
+	  <text x="0" y="250" font-size="12px">Cheese Consumed</text>
+    </svg>
+	<button id="plot"> plot </button>
+    <script src="scatter.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+  </body>
+</html>
